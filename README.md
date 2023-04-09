@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# React Redux Tests
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a set of tests implemented using React and Redux.
 
-## Available Scripts
+<img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="react" width="30" height="30"/><img src="https://cdn.iconscout.com/icon/free/png-256/redux-283024.png" alt="redux" width="30" height="30"/>
 
-In the project directory, you can run:
 
-### `npm start`
+## Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Counter](#counter)
+- [Show/Hide Text from Store](#showhidetextfromstore)
+- [Add/Delete Workers from Store](#adddeleteworkersfromstore)
+- [Translator App](#translatorapptoshowtextdependingontheselectedlanguage)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Counter
 
-### `npm test`
+This test implements a basic counter component that allows the user to increment and decrement a counter value using buttons. The counter value is stored in the Redux store and is updated using Redux actions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Show/Hide Text from Store
 
-### `npm run build`
+This test demonstrates how to show and hide text based on a value stored in the Redux store. The text is displayed or hidden based on a button click that triggers a Redux action to update the store value.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Add/Delete Workers from Store
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This test implements a list of workers stored in the Redux store as an array of objects. The user can add or delete workers from the list using buttons that trigger Redux actions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Translator App to Show Text Depending on the Selected Language
 
-### `npm run eject`
+This test implements a translator app that displays text in different languages based on the selected language. The language selection is stored in the Redux store and the text is updated using Redux actions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Conclusion
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+These tests demonstrate some of the basic functionality of React and Redux. They can be used as a starting point for building more complex applications using these technologies.
