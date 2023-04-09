@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Counter } from "./counter/counter";
+import { Msg } from "./msg/msg";
+import { Worker } from "./Worker/worker";
+import { TranslatorApp } from "./translator/translator";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+<>
+    <Counter/>
+    <Msg/>
+    <hr />
+    <Worker />
+    <hr />
+    <TranslatorApp />
+</ >  );
 }
 
 export default App;
